@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAforDIABETES</title>
+</head>
+<body>
+    <h3>Previsão de Diabetes</h3>
+
+<div>
+<form action="/result" method="POST">
+    <label for="gest">Número de Gestações: </label>
+    <input type="text" name="gest" id="gest">
+    <br>
+    <label for="glic">Concentração de Glicose: </label>
+    <input type="text" name="glic" id="glic">
+    <br>
+    <label for="press">Pressão Diastólica: </label>
+    <input type="text" name="press" id="press"> (mm Hg)
+    <br>
+    <label for="espe">Espessura da Dobra Cutânea do Tríceps: </label>
+    <input type="text" name="espe" id="espe"> (mm)
+    <br>
+    <label for="insu">Nível de Insulina: </label>
+    <input type="text" name="insu" id="insu"> (mu U/ml)
+    <br>
+    <label for="imc">índice de Massa Corporal</label>
+    <input type="text" name="imc" id="imc">
+    <br>
+    <label for="hera">Herança Genética: </label>
+    <input type="text" name="hera" id="hera">
+    <br>
+    <label for="age">Idade</label>
+    <input type="text" name="age" id="age">
+    <br>
+    <input type="submit" value="Enviar">
+</form>
+</div>
+</body>
+</html>
